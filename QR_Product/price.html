@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bảng báo giá sản phẩm</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
+      tr:hover {
+        background-color: #f2f2f2;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+      }
+
+      .btn:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bảng báo giá sản phẩm</h1>
+      <table>
+        <tr>
+          <th>Sản phẩm</th>
+          <th>Giá</th>
+          <th>Mô tả</th>
+        </tr>
+        <tr>
+          <td>Product A</td>
+          <td>$100</td>
+          <td>Mô tả sản phẩm A</td>
+        </tr>
+        <tr>
+          <td>Product B</td>
+          <td>$200</td>
+          <td>Mô tả sản phẩm B</td>
+        </tr>
+        <tr>
+          <td>Product C</td>
+          <td>$150</td>
+          <td>Mô tả sản phẩm C</td>
+        </tr>
+        <!-- Thêm các hàng khác tùy ý -->
+      </table>
+      <a class="btn" href="#">Tải xuống bảng báo giá</a>
+    </div>
+  </body>
+</html>
